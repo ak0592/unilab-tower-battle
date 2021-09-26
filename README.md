@@ -20,7 +20,7 @@ git clone https://github.com/murata-lab/unilab-tower-buttle.git
 
 #### 3. タワーを作る
 1. ProjectのAssets/Scenes/Mainを選択し，再生ボタンを押す.（画面の大きさは再生ボタン下のバーで変えられます.）
-2. [segmentation](https://github.com/ak0592/unilab-segmentation)に従ってリアルタイムの画像処理を実行.
+2. [segmentation](https://github.com/ak0592/human_segmentation)に従ってリアルタイムの画像処理を実行.
 3. Assets/Resources以下にpng画像を追加され，写真が落ちてきてタワーに追加されます.
 4. 再生ボタンを押すと終了します.
 

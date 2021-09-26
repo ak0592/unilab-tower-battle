@@ -1,4 +1,4 @@
-# 人間タワーバトル
+# 人間タワーバトル（2021年版）
 動物タワーバトルの改良verをunityで動かすためのレポジトリ
 
 このブログを参考にしました. http://blog.livedoor.jp/asamasou/archives/5689856.html
@@ -14,13 +14,16 @@ Unityをインストールする.
 
 #### 2. レポジトリをクローン
 ```
-git clone https://github.com/murata-lab/unilab-tower-buttle.git
+git clone https://github.com/ak0592/unilab-tower-battle.git
 ```
-をして，unityで開く．
-
+をして，unityで開く．  
+```
+git clone https://github.com/ak0592/human_segmentation.git
+```
+をして，pythonの必要なリポジトリをインストールする。  
 #### 3. タワーを作る
 1. ProjectのAssets/Scenes/Mainを選択し，再生ボタンを押す.（画面の大きさは再生ボタン下のバーで変えられます.）
-2. [segmentation](https://github.com/ak0592/human_segmentation)に従ってリアルタイムの画像処理を実行.
+2. [segmentation](https://github.com/ak0592/human_segmentation)の使い方に従ってリアルタイムの画像処理を実行.
 3. Assets/Resources以下にpng画像を追加され，写真が落ちてきてタワーに追加されます.
 4. 再生ボタンを押すと終了します.
 
